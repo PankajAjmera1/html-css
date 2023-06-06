@@ -1,23 +1,24 @@
 *{
-    background: #f4efef;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #f4efef;
 
 
 }
-.nav{
+nav{
     /* display: flex; */
    
     padding: 20px 10% ;
     height: 15vh;
-    /* background-color: blueviolet; */
     
     
 }
 nav ul{
     display: flex;
     align-items: center;
+ 
 
   
 
@@ -26,10 +27,11 @@ nav ul{
 }
 nav ul li{
     
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style: none;
-    margin: 5%;
+    margin-right: 5%;
     font-weight: 500;
+    align-items: center;
 }
 
 
@@ -38,6 +40,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-left: 10%;
+    
 }
 .leftmain{
     width: 40%;
@@ -45,13 +48,14 @@ main{
 }
 .leftmain h1{
 font-size: 67px;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 
 .leftmain p{
     margin: 5% 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 
 }
@@ -66,4 +70,15 @@ font-family: 'Times New Roman', Times, serif;
 }
 .rightmain{
     width: 60%;
+    margin-left: 4%;
 }
+.rightmain .upper{
+    /* background-color: black; */
+    margin-bottom: 2%;
+
+}
+.rightmain .upper .img2 
+{
+    margin-left: 1%;
+}
+
